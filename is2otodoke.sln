@@ -1,21 +1,23 @@
-Microsoft Visual Studio Solution File, Format Version 8.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "is2otodoke", "http://localhost/is2/is2otodoke/is2otodoke.csproj", "{15D873C0-49FB-4806-853F-C7670634FC1F}"
-	ProjectSection(ProjectDependencies) = postProject
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "is2otodoke", "is2otodoke.csproj", "{15D873C0-49FB-4806-853F-C7670634FC1F}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
 	EndProjectSection
 EndProject
 Global
-	GlobalSection(SolutionConfiguration) = preSolution
-		Debug = Debug
-		Release = Release
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(ProjectConfiguration) = postSolution
-		{15D873C0-49FB-4806-853F-C7670634FC1F}.Debug.ActiveCfg = Debug|.NET
-		{15D873C0-49FB-4806-853F-C7670634FC1F}.Debug.Build.0 = Debug|.NET
-		{15D873C0-49FB-4806-853F-C7670634FC1F}.Release.ActiveCfg = Release|.NET
-		{15D873C0-49FB-4806-853F-C7670634FC1F}.Release.Build.0 = Release|.NET
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15D873C0-49FB-4806-853F-C7670634FC1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15D873C0-49FB-4806-853F-C7670634FC1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15D873C0-49FB-4806-853F-C7670634FC1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15D873C0-49FB-4806-853F-C7670634FC1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-	EndGlobalSection
-	GlobalSection(ExtensibilityAddIns) = postSolution
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
